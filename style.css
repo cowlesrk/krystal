@@ -5,3 +5,16 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+.navbar-color, .navbar-header, .navbar {
+	background-color: pink;
+}
+
+.navbar-color a {
+	color: white;
+}
+
+.nav-tabs > li > a:hover{
+  background-color: lavender;
+  
+}
