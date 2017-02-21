@@ -1,75 +1,34 @@
-body {
-  padding-top: 50px;
-}
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.container-fluid {
-  margin-top: 7px;
-}
+/* Main Styles --------------------- */
 
-.navbar-color, .navbar-header, .navbar {
-	background-color: #511E78;
-}
-
-.navbar-color a {
-	color: white;
-}
-
-.nav-pills > li > a:hover{
-  background-color: #8B2F97;
-
-  
-}
-
-.active-reverse {
-  background-color: #CF56A1;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-
-  
-}
-
-
-.bg {
-  background: linear-gradient(0deg, #CF56A1, transparent 50%),
-              url('https://s-media-cache-ak0.pinimg.com/originals/d8/88/22/d888227c4e37fc341d40b8ecc83cd193.jpg') no-repeat center center;
-  position: fixed;
-  background-size: cover;
+.navbar ul {
   width: 100%;
-  height: 350px; /*same height as jumbotron */
-  top:0;
-  left:0;
-  z-index: -1;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc; 
+  border-top: 1px solid #ccc; 
 }
 
-.jumbotron {
-  margin-bottom: 0px;
-  height: 350px;
-  color: white;
-  text-shadow: black 0.3em 0.3em 0.3em;
-  font-size: 50px;
-  background:transparent;
+.navbar li {
+  float: left; 
 }
 
-.header-text {
-  margin: 20%;
+.navbar li a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #069;
+  border-right: 1px solid #ccc; 
 }
 
-.header-text h1 {
-  color: white;
-}
-
-.header-text p {
-  color: white;
-}
-
-.day, .main {
-	max-width: 50%;
-	margin-left: auto ;
-  	margin-right: auto ;
-  	padding-top: 5%;
-  	padding-bottom: 5%;
+.navbar li a:hover {
+  color: #c00;
+  background-color: #fff; 
 }
